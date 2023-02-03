@@ -56,5 +56,12 @@ header{
 }
 .menu .active a{
     border-bottom: 5px solid #b28756;
-
+    color: #b28756;
+}
+.banner{
+    height: calc(100vh - 100px);
+    background-color: #333;
+    background-image:url(../Imagens/bg.jpg);
+    background-size: cover;
+    background-position: bottom;
 }
