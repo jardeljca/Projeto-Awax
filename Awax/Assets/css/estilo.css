@@ -4,6 +4,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Estilização de área gerais padrões do site */
+
 /* Estilizacao do body */
 body{
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
@@ -63,6 +65,18 @@ header{
     border-bottom: 5px solid #b28756;
     color: #b28756;
 }
+.botao{
+    display: inline-block;
+    background-color: #b28756;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
 .banner{
     height: calc(100vh - 100px);
     background-color: #333;
@@ -102,18 +116,6 @@ header{
     margin-top: 20px;
     color: white;
 }
-.banner a{
-    display: block;
-    background-color: #b28756;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 600;
-    text-decoration: none;
-    padding: 10px 30px;
-    margin-top: 30px;
-    border-radius: 20px;
-}
 .banner .indicadores-sliders{
     width: 100vw;/* tomando toda area da tela */
     height: 20px;/* altura normal */
@@ -135,4 +137,68 @@ header{
 }
 .banner .bolinha.active{
     background-color: #b28756;
+}
+.padrao{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.padrao .titulo,
+.padrao .descricao{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.padrao .titulo{
+    font-size: 20px;
+}
+.padrao .descricao{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color: #ccc;
+}
+.padrao .corpo{
+    max-width: 1140px;
+    margin: auto;
+}
+.padrao.claro{
+    background-color: #f7f7f7;
+}
+.padrao.claro .titulo{
+    color: #000;
+}
+.padrao.claro .corpo{
+    color: #000;
+}
+.padrao.escuro{
+    background-color: #000;
+}
+.padrao.escuro .titulo{
+    color: #f7f7f7;
+}
+.padrao.escuro .corpo{
+    color: #f7f7f7;
+}
+
+
+/* Estilização de áreas isoladas do site */
+
+
+.cont-corpo{
+    display: flex;
+}
+.cont-corpo .cont-esquerdo{
+    flex: 1;
+}
+.cont-corpo .cont-esquerdo p{
+    font-size: 14px;
+    line-height: 25px;
+}
+.cont-corpo .cont-direito{
+    width: 500px;
+    text-align: center;
+}
+.cont-corpo .cont-direito img{
+    width: 450px;
+    box-shadow: 5px 5px 10px #333;
 }
