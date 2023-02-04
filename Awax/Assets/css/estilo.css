@@ -92,6 +92,7 @@ header{
     text-transform: uppercase;
     font-weight: bold;
     font-size: 50px;
+    color: white;
 }
 .banner h1 span{
     color: #b28756;
@@ -99,6 +100,7 @@ header{
 .banner h2{
     text-transform: uppercase;
     margin-top: 20px;
+    color: white;
 }
 .banner a{
     display: block;
@@ -115,8 +117,22 @@ header{
 .banner .indicadores-sliders{
     width: 100vw;/* tomando toda area da tela */
     height: 20px;/* altura normal */
-    background-color: red;
-    position: absolute;/* So para ele se posicionar acima */
-    margin-top: -50px;
-
+    position: absolute;/* So para ele se posicionar acima do elemento pai */
+    margin-top: -50px;/* Para ele subir para cima do elemento pai */
+    /* posicionamento dos elementos */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner .bolinha{
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.banner .bolinha.active{
+    background-color: #b28756;
 }
