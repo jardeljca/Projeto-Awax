@@ -202,3 +202,78 @@ header{
     width: 450px;
     box-shadow: 5px 5px 10px #333;
 }
+.padrao.escuro .corpo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.padrao.escuro .corpo .elemento1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 150px;
+    width: 200px;
+}
+.padrao.escuro .corpo .elemento2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #ccc;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 150px;
+    width: 200px;
+}
+.padrao.escuro .corpo .elemento3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #ccc;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 150px;
+    width: 200px;
+}
+.padrao.escuro .corpo .elemento4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #ccc;
+    padding: 15px;
+    height: 150px;
+    width: 200px;   
+}
+.padrao.escuro .corpo .elemento1 .titulo-elemento1,
+.padrao.escuro .corpo .elemento2 .titulo-elemento2,
+.padrao.escuro .corpo .elemento3 .titulo-elemento3,
+.padrao.escuro .corpo .elemento4 .titulo-elemento4{
+    font-size: 15px;
+    flex: 1;
+    text-align: center;
+    text-transform: uppercase;
+}
+.padrao.escuro .corpo .elemento1 .descricao-elemento1,
+.padrao.escuro .corpo .elemento2 .descricao-elemento2,
+.padrao.escuro .corpo .elemento3 .descricao-elemento3,
+.padrao.escuro .corpo .elemento4 .descricao-elemento4{
+    font-size: 8px;
+    flex: 1;
+    text-align: center;
+    text-transform: uppercase;
+    color: #999;
+}
+.padrao.escuro .corpo .elemento1 .icone-elemento1,
+.padrao.escuro .corpo .elemento2 .icone-elemento2,
+.padrao.escuro .corpo .elemento3 .icone-elemento3,
+.padrao.escuro .corpo .elemento4 .icone-elemento4{
+    flex: 1;
+    margin-bottom: 5px;
+}
