@@ -277,3 +277,88 @@ header{
     flex: 1;
     margin-bottom: 5px;
 }
+
+.sessao-produtos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu-produtos{
+    border: 1px solid #ccc;
+    background-color: #eee;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 0px 20px;
+}
+.menu-produtos ul,
+.menu-produtos li{
+    list-style: none;
+}
+.menu-produtos li{
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 13px;
+    border-left: 1px solid #ccc;
+    color: #555;
+    border-bottom: 3px solid #eee;
+    cursor: pointer;
+}
+.menu-produtos li:hover,
+.menu-produtos li.active{
+    border-bottom: 3px solid #b28756;    
+}
+.menu-produtos li:first-child{
+    border-left: none;
+}
+.todas-fotos{
+    width: 100vw;
+    max-width: 1140px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.todas-fotos .foto{
+    width: 280px;
+}
+.todas-fotos .area-foto{
+    margin: 10px;
+    width: 260px;
+    height: 160px;
+}
+.todas-fotos .area-foto img{
+    width: inherit;
+    height: inherit;
+}
+.todas-fotos .foto-info{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: inherit;
+    height: inherit;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+}
+.todas-fotos .foto-info h5{
+    font-size: 18px;
+    font-weight: 600;
+}
+.area-foto:hover .foto-info {
+    display: flex;
+}
+.bg-time{
+    background-image: url(../Imagens/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0px;
+}
+.area-time{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 50px;
+    padding-bottom: 
+    50px;
+}
