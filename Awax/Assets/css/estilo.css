@@ -202,7 +202,8 @@ header{
     width: 450px;
     box-shadow: 5px 5px 10px #333;
 }
-.padrao.escuro .corpo{
+/* Section Serviços */
+.padrao.escuro .servicos-area{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -277,7 +278,7 @@ header{
     flex: 1;
     margin-bottom: 5px;
 }
-
+/* Section Nossos projetos */
 .sessao-produtos{
     display: flex;
     flex-direction: column;
@@ -350,15 +351,62 @@ header{
 .area-foto:hover .foto-info {
     display: flex;
 }
+/* Section nosso time */
 .bg-time{
     background-image: url(../Imagens/bg.jpg);
     background-size: cover;
     background-position: center;
     padding: 0px;
+    
 }
 .area-time{
     background-color: rgba(0, 0, 0, 0.8);
     padding-top: 50px;
     padding-bottom: 
     50px;
+}
+.time{
+    overflow: hidden;
+    max-width: 880px;
+    margin: auto;
+}
+.time .sliders{
+    width: 1000vw;
+    height: 100%;
+}
+.time .slide{
+    width: 280px;
+    height: 100%;
+    display: inline-block;
+    background-color: #fff;
+    margin-right: 20px;
+    min-height: 300px;
+}
+.time .slidearea{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.area-time .indicadores-sliders{
+    margin-top: 30px;
+    height: 20px;/* altura normal */
+    /* posicionamento dos elementos */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.area-time .bolinha{
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.area-time .bolinha.active{
+    background-color: #b28756;
 }
