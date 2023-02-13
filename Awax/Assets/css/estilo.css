@@ -388,7 +388,8 @@ header{
     height: 100%;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: black;
+    padding: 20px;
 }
 .area-time .indicadores-sliders{
     margin-top: 30px;
@@ -408,5 +409,37 @@ header{
     cursor: pointer;
 }
 .area-time .bolinha.active{
+    background-color: #b28756;
+}
+.time-avatar{
+    width: 150px;
+    height: auto;
+}
+.time-nome{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 30px;
+}
+.time-cargo{
+    margin-top: 5px;
+    color: #999;
+    font-size: 14px;
+}
+.time-social{
+    display: flex;
+    margin: 20px;
+}
+.time-social a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 13px;
+    background-color: #ccc;
+    margin-right: 10px;
+}
+.time-social a:hover{
     background-color: #b28756;
 }
