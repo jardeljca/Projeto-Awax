@@ -88,7 +88,7 @@ header{
 .banner .sliders{
     width: 1000vw;
     height: 100%;
-}
+}   
 .banner .slide{
     width: 100vw;
     height: 100%;
@@ -388,16 +388,13 @@ header{
     height: 100%;
     justify-content: center;
     align-items: center;
-    color: black;
-    padding: 20px;
+    color: #fff;
 }
 .area-time .indicadores-sliders{
     margin-top: 30px;
-    height: 20px;/* altura normal */
-    /* posicionamento dos elementos */
+    height: 20px;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 .area-time .bolinha{
     width: 15px;
@@ -442,4 +439,79 @@ header{
 }
 .time-social a:hover{
     background-color: #b28756;
+}
+/* Cliente satisfeitos */
+.foto-cliente{
+    display: flex;
+    justify-content: center;
+}
+.foto-cliente img{
+    width: 100px;
+    height: auto;
+}
+.dados-cliente{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.dados-cliente .nome{
+    font-size: 16px;
+    font-weight: 
+    bold;
+    margin-top: 20px;
+}
+.dados-cliente .cargo{
+    font-size: 14px;
+    margin-top: 2px;
+}
+.depoimento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.depoimento img{
+    margin-top: 30px;
+    height: 15px;
+}
+.depoimento .texto-depoimento{
+    font-size: 13px;
+    color: #555;
+    margin-top: 
+    10px;
+}
+.area-cliente .indicadores-sliders{
+    margin-top: 30px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+}
+.area-cliente .bolinha{
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.area-cliente .bolinha.active{
+    background-color: #b28756;
+}
+.area-img-empresas{
+    background-color: #fff;
+    height: 164px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+}
+.area-img-empresas img{
+    margin-right: 80px;
+}   
+.area-card{
+    background-color: red;
+}
+.card{
+    background-color: blue;
 }
