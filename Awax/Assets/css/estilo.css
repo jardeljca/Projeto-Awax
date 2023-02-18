@@ -17,7 +17,7 @@ header{
     background-color: #000;
     color: white;
 }
-/* Estilizacao padrão cabeçakho */
+/* Estilizacao padrão cabeçalho */
 .tam-conteudo{
     max-width: 1140px;
     height: 100px;
@@ -498,6 +498,7 @@ align-items: center;
 .area-cliente .bolinha.active{
     background-color: #b28756;
 }
+/* Section empresas */
 .area-img-empresas{
     background-color: #fff;
     height: 164px;
@@ -508,10 +509,89 @@ align-items: center;
 }
 .area-img-empresas img{
     margin-right: 80px;
-}   
-.area-card{
-    background-color: red;
 }
-.card{
-    background-color: blue;
+/* Section cards precos */
+.area-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}
+.area-card .card{
+    flex: 1;
+    background-color: #FFF;
+    margin-right: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.area-card .nome-card{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+}
+.area-card .preco-card{
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 10px;
+}
+.area-card .periodo-card{
+    color: #999;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.area-card .descricao-card{
+    font-size: 12px;
+    margin-bottom: 20px;  
+}
+.area-card a{
+    border: 1px solid #000;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 5px 20px;
+    text-transform: uppercase;
+}
+/* Section premio */
+.area-premio{
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    overflow: hidden;
+}
+.area-premio .titulo,
+.area-premio .descricao{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.area-premio .titulo{
+    font-size: 20px;
+    margin-top: 50px;
+}
+.area-premio .descricao{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color: #ccc;
+}
+.corpo-premio{
+    display: flex;
+    justify-content: center;
+}
+.corpo-premio img{
+    width: 300px;
+}
+.desc-premio{
+    display: flex;
+    flex-direction: column;
+}
+.desc-premio img{
+    width: 20px;
+    height: 20px;
+}
+.desc-premio-titulo{
+    display: flex;
+    flex-direction: column;
 }
