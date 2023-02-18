@@ -441,6 +441,12 @@ header{
     background-color: #b28756;
 }
 /* Cliente satisfeitos */
+.area-cliente .secao-testemunhos{
+    overflow: hidden;
+}
+.secao-testemunhos .sliders{
+    width: 1000vw;
+}
 .foto-cliente{
     display: flex;
     justify-content: center;
