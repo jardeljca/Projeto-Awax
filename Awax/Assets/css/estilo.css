@@ -440,85 +440,9 @@ header{
 .time-social a:hover{
     background-color: #b28756;
 }
-/* Cliente satisfeitos */
-.clientes .corpo{
-    max-width: initial;
-}
-.area-cliente .secao-testemunhos{
-    overflow: hidden;
-}
-.secao-testemunhos .sliders{
-    width: 300vw;
-    height: 100%;
-    background-color: red;
-}
-.secao-testemunhos .slider{
-    width: 100vw;
-    height: 100%;
-    display: inline-block;
-}
-.secao-testemunhos .slider-area{
-    display: flex;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-}
-.foto-cliente{
-    display: flex;
-    justify-content: center;
-}
-.foto-cliente img{
-    width: 100px;
-    height: auto;
-}
-.dados-cliente{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-}
-.dados-cliente .nome{
-    font-size: 16px;
-    font-weight: 
-    bold;
-    margin-top: 20px;
-}
-.dados-cliente .cargo{
-    font-size: 14px;
-    margin-top: 2px;
-}
-.depoimento{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.depoimento img{
-    margin-top: 30px;
-    height: 15px;
-}
-.depoimento .texto-depoimento{
-    font-size: 13px;
-    color: #555;
-    margin-top: 
-    10px;
-}
-.area-cliente .indicadores-sliders{
-    margin-top: 30px;
-    height: 20px;
-    display: flex;
-    justify-content: center;
-}
-.area-cliente .bolinha{
-    width: 15px;
-    height: 15px;
-    margin-left: 5px;
-    margin-right: 5px;
-    border: 2px solid #b28756;
-    border-radius: 8px;
-    cursor: pointer;
-}
-.area-cliente .bolinha.active{
-    background-color: #b28756;
+/* seção clientes satisfeitos */
+.area-cliente{
+    display: none;
 }
 /* Section empresas */
 .area-img-empresas{
@@ -616,4 +540,63 @@ align-items: center;
 .desc-premio-titulo{
     display: flex;
     flex-direction: column;
+}
+.area-premio hr{
+    color: #ddd;
+    width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+}
+.area-premio .indicadores-sliders{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+}
+.area-premio .bolinha{
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.area-premio .bolinha.active{
+    background-color: #b28756;
+}
+/* Seccion alguns fatos */
+.area-fato{
+    display: flex;
+}
+.area-fato .fato{
+    flex: 1;
+    text-align: center;
+}
+.area-fato h3{
+    color:#B28756;
+    font-size:45px;
+}
+.area-fato .linha-fato{
+    width: 20px;
+    border-bottom:2px solid #B28756;
+    margin:auto;
+    margin-bottom: 15px;
+}
+/* Section share */
+.area-share{
+    display: flex;
+    justify-content: center;
+}
+.area-share .share{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.area-share img{
+    margin-right: 15px;
+}
+.corpo-form{
+    
 }
